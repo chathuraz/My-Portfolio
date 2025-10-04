@@ -12,7 +12,7 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-16">
           <div className="space-y-6">
             <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
-              I'm a passionate software engineer specializing in developing scalable mobile & web applications, 
+              I&apos;m a passionate software engineer specializing in developing scalable mobile & web applications, 
               AI solutions, and network development. I love turning complex problems into user-centric and 
               impactful solutions.
             </p>
@@ -22,8 +22,8 @@ const About = () => {
               development to network architecture design.
             </p>
             <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
-              When I'm not coding, you can find me contributing to open-source projects like ViMusic, 
-              volunteering at tech events, or competing in hackathons where I've been a finalist multiple times.
+              When I&apos;m not coding, you can find me contributing to open-source projects like ViMusic, 
+              volunteering at tech events, or competing in hackathons where I&apos;ve been a finalist multiple times.
             </p>
           </div>
           <div className="bg-gray-50 dark:bg-[#1A1A1A] rounded-3xl p-8 border border-gray-200 dark:border-gray-800">

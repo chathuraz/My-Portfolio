@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="max-w-7xl mx-auto px-6 lg:px-8 py-32 text-center">
         <div className="animate-fade-in">
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-normal mb-8">
-            <span className="text-gray-900 dark:text-white">Hi! I'm </span>
+            <span className="text-gray-900 dark:text-white">Hi! I&apos;m </span>
             <span className="bg-gradient-blue-green bg-clip-text text-transparent font-medium">
               Chathura
             </span>
