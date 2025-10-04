@@ -75,7 +75,7 @@ const Contact = () => {
             Get In <span className="bg-gradient-blue-green bg-clip-text text-transparent font-medium">Touch</span>
           </h2>
           <p className="text-gray-600 dark:text-gray-400 max-w-2xl">
-            I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
+            I&apos;m always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
           </p>
         </div>
 
@@ -131,7 +131,7 @@ const Contact = () => {
               
               {submitStatus === 'success' && (
                 <div className="p-4 bg-green-50 dark:bg-green-900/20 text-green-700 dark:text-green-400 rounded-xl text-sm">
-                  ✓ Message sent successfully! I'll get back to you soon.
+                  ✓ Message sent successfully! I&apos;ll get back to you soon.
                 </div>
               )}
               
