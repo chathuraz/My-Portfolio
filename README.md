@@ -4,12 +4,12 @@ A beautiful, responsive portfolio website showcasing my work as a Software Engin
 
 ## Features
 
-- ✨ Modern and clean design
+- ✨ Modern and clean design with NotebookLM-inspired aesthetic
 - 📱 Fully responsive
 - 🌙 Dark mode support
-- ⚡ Fast performance with Next.js
-- 🎨 Beautiful animations
-- 📧 Contact form
+- ⚡ Fast performance with Next.js 14
+- 🎨 Beautiful gradient text animations
+- 📧 Contact form with Web3Forms integration
 - 🎯 Sections: Hero, About, Skills, Experience, Projects, Education, Achievements, Contact
 
 ## About Me
@@ -110,6 +110,7 @@ npm start
 - **Styling:** Tailwind CSS
 - **Icons:** Lucide React
 - **Animations:** Custom CSS animations
+- **Contact Form:** Web3Forms
 
 ## Project Structure
 
@@ -128,6 +129,7 @@ Portfolio/
 │       ├── Experience.tsx
 │       ├── Projects.tsx
 │       ├── Education.tsx
+│       ├── Achievements.tsx
 │       ├── Contact.tsx
 │       └── Footer.tsx
 ├── public/
