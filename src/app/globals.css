@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #FAFAFA;
+  --foreground: #1A1A1A;
+  --card-bg: #FFFFFF;
+  --text-secondary: #666666;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0F0F0F;
+    --foreground: #FAFAFA;
+    --card-bg: #1A1A1A;
+    --text-secondary: #A0A0A0;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', sans-serif;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+/* Material Design Utility Classes */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  /* Material Elevation Shadows */
+  .mat-elevation-0 {
+    box-shadow: none;
+  }
+  
+  .mat-elevation-1 {
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+  }
+  
+  .mat-elevation-2 {
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 2px 6px 2px rgba(60, 64, 67, 0.15);
+  }
+  
+  .mat-elevation-3 {
+    box-shadow: 0 1px 3px 0 rgba(60, 64, 67, 0.3), 0 4px 8px 3px rgba(60, 64, 67, 0.15);
+  }
+  
+  /* Material Transitions */
+  .mat-transition {
+    transition: all 0.3s cubic-bezier(0.4, 0.0, 0.2, 1);
+  }
+}
+
+/* Material Design Scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F1F3F4;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #DADCE0;
+  border-radius: 8px;
+  border: 2px solid #F1F3F4;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #BDC1C6;
+}
+
+@media (prefers-color-scheme: dark) {
+  ::-webkit-scrollbar-track {
+    background: #292A2D;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #5F6368;
+    border-color: #292A2D;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #80868B;
+  }
+}
+
+/* Material Design Focus Rings */
+*:focus-visible {
+  outline: 2px solid var(--google-blue);
+  outline-offset: 2px;
+}
