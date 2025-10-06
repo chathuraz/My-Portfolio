@@ -33,14 +33,14 @@ const About = () => {
                 <span className="text-2xl">🎓</span>
                 <div>
                   <p className="text-sm text-gray-500 dark:text-gray-500">Education</p>
-                  <p className="text-base text-gray-900 dark:text-white">BSc (Hons) Computing & IS</p>
+                  <p className="text-base text-gray-900 dark:text-white">BSc (Hons) Computing & Information Systems</p>
                 </div>
               </li>
               <li className="flex items-start gap-4">
                 <span className="text-2xl">💼</span>
                 <div>
                   <p className="text-sm text-gray-500 dark:text-gray-500">Role</p>
-                  <p className="text-base text-gray-900 dark:text-white">Software Engineer Intern</p>
+                  <p className="text-base text-gray-900 dark:text-white">Software Engineer, Full-stack Developer, Mobile App Developer, Network Engineer Intern</p>
                 </div>
               </li>
               <li className="flex items-start gap-4">
@@ -54,7 +54,7 @@ const About = () => {
                 <span className="text-2xl">💡</span>
                 <div>
                   <p className="text-sm text-gray-500 dark:text-gray-500">Interests</p>
-                  <p className="text-base text-gray-900 dark:text-white">Mobile Dev, AI, Networking</p>
+                  <p className="text-base text-gray-900 dark:text-white">Web Dev, Mobile Dev, AI, Networking</p>
                 </div>
               </li>
             </ul>
