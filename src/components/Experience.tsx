@@ -5,7 +5,7 @@ const Experience = () => {
     {
       title: 'Software Engineer Intern',
       company: 'Current Position',
-      period: '2023 - Present',
+      period: 'Present',
       description: [
         'Developing scalable mobile & web applications using Flutter and React',
         'Collaborating with global teams on AI-powered solutions',
@@ -16,7 +16,7 @@ const Experience = () => {
     {
       title: 'Open Source Contributor',
       company: 'ViMusic Project',
-      period: '2024',
+      period: '2025',
       description: [
         'Led full UI transformation with Spotify-inspired design using Kotlin',
         'Integrated Material 3 design system for modern UX',
