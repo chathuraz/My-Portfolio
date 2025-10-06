@@ -32,7 +32,7 @@ const Hero = () => {
               View My Work
             </a>
             <a
-              href="https://drive.google.com/file/d/1XK-vkT0tJdsxeQ2PwlzPSesFbQlfZOgw/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1MDTwkBUQxH81AsmZcs8MQUDepiA1Fvo6/view?usp=sharing"
               className="px-8 py-4 bg-transparent border-2 border-gray-300 dark:border-gray-700 text-gray-900 dark:text-white rounded-full hover:border-gray-400 dark:hover:border-gray-600 transition-all duration-200 font-medium text-base"
             >
               View CV
