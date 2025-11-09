@@ -1,0 +1,33 @@
+````
+
+Update your [package.json](http://_vscodecontentref_/1):
+
+````json
+<vscode_codeblock_uri>file:///f%3A/projects/Portfolio/package.json</vscode_codeblock_uri>{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && touch out/.nojekyll",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "react": "^18",
+    "react-dom": "^18",
+    "next": "14.2.33",
+    "lucide-react": "latest"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "tailwindcss": "^3.4.1",
+    "postcss": "^8",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "14.2.33"
+  }
+}
